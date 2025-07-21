@@ -7,37 +7,43 @@ class Employee
 
     public static int count = 0;
 
-    static Employee()
+    public Employee()
     {
         count++;
         Console.WriteLine("The Static Count is " + count);
-
-        string Name = "Niti";
-        int Age = 30;
+        Name = "Saravanan";
+        Age = 32;
     }
 
-    public Employee()
+    public Employee(string name, int age)
     {
-        string Name = "Saravanan";
-        int Age = 32;
+        Name = name;
+        Age = age;
     }
 
-    public Employee(string Name, int Age)
+    public Employee(string name)
     {
-        string Name = name;
-        int Age = Age;
+        Name = name;
     }
 
     public void Display()
     {
-        Console.WriteLine("The Name : " + Name + ", Age : ");
+        Console.WriteLine("The Name : " + Name + ", Age : " + Age);
     }
 
-    public void Main()
-    {
-        Employee e1 = new Employee();
-
-        e1.Display();
-    }
+    
 }
 
+class ConstructorProgram
+{
+    public static void Main()
+    {
+        Employee e1 = new Employee();
+        Employee e2 = new Employee();
+        Employee e3 = new Employee();
+
+        e1.Display();
+        e2.Display();
+        e3.Display();
+    }
+}
