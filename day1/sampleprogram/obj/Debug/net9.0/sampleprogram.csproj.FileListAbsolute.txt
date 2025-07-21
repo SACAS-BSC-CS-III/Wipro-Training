@@ -1,0 +1,14 @@
+D:\C# Programs\Wipro_Training\day1\sampleprogram\bin\Debug\net9.0\sampleprogram.exe
+D:\C# Programs\Wipro_Training\day1\sampleprogram\bin\Debug\net9.0\sampleprogram.deps.json
+D:\C# Programs\Wipro_Training\day1\sampleprogram\bin\Debug\net9.0\sampleprogram.runtimeconfig.json
+D:\C# Programs\Wipro_Training\day1\sampleprogram\bin\Debug\net9.0\sampleprogram.dll
+D:\C# Programs\Wipro_Training\day1\sampleprogram\bin\Debug\net9.0\sampleprogram.pdb
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.AssemblyInfoInputs.cache
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.AssemblyInfo.cs
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.csproj.CoreCompileInputs.cache
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.dll
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\refint\sampleprogram.dll
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.pdb
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\sampleprogram.genruntimeconfig.cache
+D:\C# Programs\Wipro_Training\day1\sampleprogram\obj\Debug\net9.0\ref\sampleprogram.dll

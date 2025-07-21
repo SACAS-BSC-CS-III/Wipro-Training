@@ -1,0 +1,14 @@
+D:\C# Programs\Wipro_Training\day1\controlstatements\bin\Debug\net9.0\controlstatements.exe
+D:\C# Programs\Wipro_Training\day1\controlstatements\bin\Debug\net9.0\controlstatements.deps.json
+D:\C# Programs\Wipro_Training\day1\controlstatements\bin\Debug\net9.0\controlstatements.runtimeconfig.json
+D:\C# Programs\Wipro_Training\day1\controlstatements\bin\Debug\net9.0\controlstatements.dll
+D:\C# Programs\Wipro_Training\day1\controlstatements\bin\Debug\net9.0\controlstatements.pdb
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.AssemblyInfoInputs.cache
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.AssemblyInfo.cs
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.csproj.CoreCompileInputs.cache
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.dll
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\refint\controlstatements.dll
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.pdb
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\controlstatements.genruntimeconfig.cache
+D:\C# Programs\Wipro_Training\day1\controlstatements\obj\Debug\net9.0\ref\controlstatements.dll
