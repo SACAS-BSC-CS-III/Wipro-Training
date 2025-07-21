@@ -2,7 +2,7 @@
 
 class Program
 {
-    static void Main()
+    static void ArrayProgram()
     {
         Console.WriteLine("Enter the Number of Students");
         int noOfStudents = Convert.ToInt32(Console.ReadLine());
