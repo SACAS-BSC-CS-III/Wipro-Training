@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C# Programs\\Wipro_Training\\day3\\Day3.csproj": {}
+    "D:\\C# Programs\\Wipro_Training\\Day3\\Day3.csproj": {}
   },
   "projects": {
-    "D:\\C# Programs\\Wipro_Training\\day3\\Day3.csproj": {
+    "D:\\C# Programs\\Wipro_Training\\Day3\\Day3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C# Programs\\Wipro_Training\\day3\\Day3.csproj",
+        "projectUniqueName": "D:\\C# Programs\\Wipro_Training\\Day3\\Day3.csproj",
         "projectName": "Day3",
-        "projectPath": "D:\\C# Programs\\Wipro_Training\\day3\\Day3.csproj",
+        "projectPath": "D:\\C# Programs\\Wipro_Training\\Day3\\Day3.csproj",
         "packagesPath": "C:\\Users\\murug\\.nuget\\packages\\",
-        "outputPath": "D:\\C# Programs\\Wipro_Training\\day3\\obj\\",
+        "outputPath": "D:\\C# Programs\\Wipro_Training\\Day3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\murug\\AppData\\Roaming\\NuGet\\NuGet.Config"

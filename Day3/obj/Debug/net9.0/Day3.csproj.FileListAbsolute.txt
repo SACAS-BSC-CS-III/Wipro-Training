@@ -12,3 +12,4 @@ D:\C# Programs\Wipro_Training\day3\obj\Debug\net9.0\refint\Day3.dll
 D:\C# Programs\Wipro_Training\day3\obj\Debug\net9.0\Day3.pdb
 D:\C# Programs\Wipro_Training\day3\obj\Debug\net9.0\Day3.genruntimeconfig.cache
 D:\C# Programs\Wipro_Training\day3\obj\Debug\net9.0\ref\Day3.dll
+D:\C# Programs\Wipro_Training\Day3\obj\Debug\net9.0\Day3.sourcelink.json
