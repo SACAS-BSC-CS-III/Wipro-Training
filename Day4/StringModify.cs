@@ -1,12 +1,12 @@
-using System;
+// using System;
 
-class Program3
-{
-    static void Main()
-    {
-        string name = "Niti";
-        name += "Dwivedi";
+// class Program3
+// {
+//     static void Main()
+//     {
+//         string name = "Niti";
+//         name += "Dwivedi";
 
-        Console.WriteLine(name);
-    }
-}
+//         Console.WriteLine(name);
+//     }
+// }
