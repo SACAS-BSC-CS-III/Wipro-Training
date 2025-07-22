@@ -1,0 +1,15 @@
+D:\C# Programs\Wipro_Training\day4\bin\Debug\net9.0\Day4.exe
+D:\C# Programs\Wipro_Training\day4\bin\Debug\net9.0\Day4.deps.json
+D:\C# Programs\Wipro_Training\day4\bin\Debug\net9.0\Day4.runtimeconfig.json
+D:\C# Programs\Wipro_Training\day4\bin\Debug\net9.0\Day4.dll
+D:\C# Programs\Wipro_Training\day4\bin\Debug\net9.0\Day4.pdb
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.AssemblyInfoInputs.cache
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.AssemblyInfo.cs
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.csproj.CoreCompileInputs.cache
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.sourcelink.json
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.dll
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\refint\Day4.dll
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.pdb
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\Day4.genruntimeconfig.cache
+D:\C# Programs\Wipro_Training\day4\obj\Debug\net9.0\ref\Day4.dll

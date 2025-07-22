@@ -1,0 +1,50 @@
+String are of Two Types
+
+-----> 
+-----> 
+
+--------------------------------------------------------------------------
+1. String Literal
+string greeting = "Hello World!";
+
+2. Using new keyword
+string message = new string("Welcome!");
+
+3. From char[] array
+char[] letters = { 'H', 'e', 'l', 'l', 'o' };
+string word = new string(letters);  // "Hello"
+
+4. Empty String
+string empty1 = "";
+string empty2 = string.Empty;
+
+5. Verbatim String (@) - for file paths
+string path = @"C:\Users\John\Documents";
+
+6. Multi-line Verbatim String
+string multiLine = @"Line1
+Line2
+Line3";
+
+7. String Interpolation ($)
+string name = "Alice";
+string greet = $"Hello, {name}!";
+
+8. Using string.Concat()
+string combined = string.Concat("Hello", " ", "World");
+
+9. Using string.Format()
+string formatted = string.Format("Name: {0}, Age: {1}", "John", 25);
+
+10. Using StringBuilder
+StringBuilder sb = new StringBuilder();
+sb.Append("Hello");
+sb.Append(" World");
+string result = sb.ToString();
+
+11. Unicode Escape Sequence
+string unicode = "\u0041\u0042\u0043"; // "ABC"
+
+12. Using string.Join()
+string[] words = { "C#", "is", "cool" };
+string sentence = string.Join(" ", words);  // "C# is cool"
