@@ -2,6 +2,76 @@ String are of Two Types
 
 -----> 
 -----> 
+--------------------------------------------------------------------------
+
+Length – Returns the number of characters in a string.
+string s = "Hello"; int len = s.Length;
+
+Substring(startIndex, length) – Extracts part of a string.
+s.Substring(0, 4); // "Hell"
+
+IndexOf(char/substring) – Finds the first index of a character or substring.
+"hello".IndexOf('l'); // 2
+
+LastIndexOf(char/substring) – Finds the last index of a character or substring.
+"hello".LastIndexOf('l'); // 3
+
+Contains(substring) – Checks if the string contains a substring.
+"Digital Hub".Contains("Hub"); // true
+
+Replace(oldValue, newValue) – Replaces all occurrences of a substring.
+"bad".Replace("bad", "good"); // "good"
+
+ToUpper() / ToLower() – Converts the string to uppercase or lowercase.
+"Hi".ToUpper(); // "HI"
+
+Trim() / TrimStart() / TrimEnd() – Removes whitespace or specific characters.
+" Hi ".Trim(); // "Hi"
+
+Split(separator) – Splits the string into an array using a separator.
+"a,b,c".Split(','); // ["a", "b", "c"]
+
+Join(separator, array) – Joins an array of strings into one string.
+string.Join("-", new[] { "1", "2" }); // "1-2"
+
+StartsWith() / EndsWith() – Checks if the string starts or ends with a substring.
+"Hello".StartsWith("He"); // true
+
+Remove(startIndex, count) – Removes characters from a string starting at a specific index.
+"Testing".Remove(4, 2); // "Testg"
+
+Insert(index, value) – Inserts a substring at a specified position.
+"World".Insert(0, "Hello "); // "Hello World"
+
+PadLeft(totalWidth, char) / PadRight() – Pads the string with a character to the left or right.
+"42".PadLeft(5, '0'); // "00042"
+
+Character Access – Access individual characters using indexer.
+char c = "John"[1]; // 'o'
+
+--------------------------------------------------------------------------
+
+Method	Purpose	Example
+
+char.IsDigit(c)	Checks if c is a digit (0–9)	char.IsDigit('5') → true
+
+char.IsLetter(c)	Checks if c is a letter (A–Z, a–z)	char.IsLetter('A') → true
+
+char.IsLetterOrDigit(c)	Checks if c is a letter or digit	char.IsLetterOrDigit('7') → true
+
+char.IsWhiteSpace(c)	Checks if c is a whitespace (space, tab, etc.)	char.IsWhiteSpace(' ') → true
+
+char.IsUpper(c)	Checks if c is an uppercase letter	char.IsUpper('H') → true
+
+char.IsLower(c)	Checks if c is a lowercase letter	char.IsLower('h') → true
+
+char.IsControl(c)	Checks if c is a control character (like \n, \t)	char.IsControl('\n') → true
+
+char.IsPunctuation(c)	Checks if c is punctuation (., !, , etc.)	char.IsPunctuation('.') → true
+
+char.IsSymbol(c)	Checks if c is a symbol (+, =, etc.)	char.IsSymbol('+') → true
+
+char.IsSeparator(c)	Checks if c is a Unicode separator (e.g. space)	Rarely used separately
 
 --------------------------------------------------------------------------
 1. String Literal
@@ -48,3 +118,49 @@ string unicode = "\u0041\u0042\u0043"; // "ABC"
 12. Using string.Join()
 string[] words = { "C#", "is", "cool" };
 string sentence = string.Join(" ", words);  // "C# is cool"
+
+-----------------------------------------------------------------------------
+
+Boxing and Unboxing
+
+Casting(We use it for primitive type of values(converting from one prinitive to other primitive)) - Implicit Casting(which automatically) / Explicit Casting
+
+Conversion of int to short
+
+
+size of int - 32 bits / 4 bytes
+        short = 16 bits / 2 bytes
+
+Boxing
+
+    Whenever we are converting from primitive to object - Boxing
+    Whenever we are converting from object to premitive - Unboxing
+
+    eg:
+        int a = 500;
+        object b = a; // Boxing
+
+
+        // here it is simply copying the refrence hence no boxing occurs
+        int[] 
+        foreach(object o in list)
+        {
+
+        }
+
+        int[] numbers = {1,2,3,4};
+        foreach(var num in numbers)
+        {
+            object obj = number; // Boxing wrapping into a refrenc4y type (i.e. heap)
+        }
+
+    string[] names = {"dfsdf","sdfsdf","sdfsdfsdf"}
+    foreach(var name in names)
+    {
+        object obj = name; ?? No Boxing beacuse string is a refrence type
+    }
+
+
+    As we know sring is immutable where it will create a new string objecrs in memory every tiem you modify it;
+
+        String Builder -- Which is a Mutable class in the System. Text namespace used for many especially when you do some mofification in the code

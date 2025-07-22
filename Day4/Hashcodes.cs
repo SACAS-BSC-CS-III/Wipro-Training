@@ -1,7 +1,7 @@
 class Program2
 {
 
-    static void Main()
+    static void HashCode()
     {
         // shared one
         string a = "Niti"; // using literal // get stored in a string pool

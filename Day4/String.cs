@@ -2,7 +2,7 @@
 
 class StringPrograms
 {
-    static void Main()
+    static void String()
     {
         // string text = "CSharp Language";
 
