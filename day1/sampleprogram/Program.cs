@@ -6,6 +6,8 @@ namespace ProgramUsage{
         public static void PrintMessage()
         {
             Console.WriteLine("This is sample printline");
+            Console.WriteLine("This is sample printline");
+
         }
     }
 }
