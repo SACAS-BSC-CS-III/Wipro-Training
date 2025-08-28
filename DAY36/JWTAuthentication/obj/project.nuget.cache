@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "xMykxr9rw/U=",
+  "success": true,
+  "projectFilePath": "D:\\C# Programs\\Wipro_Training\\Day36\\JWTAuthentication\\JWTAuthentication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\murug\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.7\\microsoft.aspnetcore.openapi.9.0.7.nupkg.sha512",
+    "C:\\Users\\murug\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
