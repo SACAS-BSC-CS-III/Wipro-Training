@@ -1,0 +1,66 @@
+@model IEnumerable<DatabaseFirst_EFCore.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>Employees</h2>
+
+<!-- CREATE EMPLOYEE FORM -->
+<form asp-action="Create" method="post">
+    <div>
+        <label>Name:</label>
+        <input type="text" name="Name" required />
+    </div>
+    <div>
+        <label>Designation:</label>
+        <input type="text" name="Designation" required />
+    </div>
+    <div>
+        <label>Department ID:</label>
+        <input type="number" name="DepartmentId" required />
+    </div>
+    <button type="submit">Add Employee</button>
+</form>
+
+<hr />
+
+<!-- EMPLOYEES TABLE -->
+<table border="1" cellpadding="6">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Designation</th>
+            <th>Department ID</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var employee in Model)
+        {
+            <tr>
+                <td>@employee.Id</td>
+                <td>@employee.Name</td>
+                <td>@employee.Designation</td>
+                <td>@employee.DepartmentId</td>
+                <td>
+                    <!-- EDIT FORM -->
+                    <form asp-action="Edit" method="post" style="display:inline;">
+                        <input type="hidden" name="Id" value="@employee.Id" />
+                        <input type="text" name="Name" value="@employee.Name" />
+                        <input type="text" name="Designation" value="@employee.Designation" />
+                        <input type="number" name="DepartmentId" value="@employee.DepartmentId" />
+                        <button type="submit">Edit</button>
+                    </form>
+
+                    <!-- DELETE FORM -->
+                    <form asp-action="Delete" method="post" style="display:inline;">
+                        <input type="hidden" name="Id" value="@employee.Id" />
+                        <button type="submit" onclick="return confirm('Delete this employee?')">Delete</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

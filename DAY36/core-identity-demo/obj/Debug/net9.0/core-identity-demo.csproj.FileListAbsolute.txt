@@ -1,0 +1,10 @@
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.csproj.AssemblyReference.cache
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\rpswa.dswa.cache.json
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.AssemblyInfoInputs.cache
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.AssemblyInfo.cs
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.csproj.CoreCompileInputs.cache
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.MvcApplicationPartsAssemblyInfo.cs
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.RazorAssemblyInfo.cache
+D:\Angular_Prgs\DAY36\core-identity-demo\obj\Debug\net9.0\core-identity-demo.RazorAssemblyInfo.cs

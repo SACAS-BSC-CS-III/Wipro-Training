@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<div style="height:70vh;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;">
+    <h1>Welcome User: @ViewBag.UserId</h1>
+
+    <form asp-controller="Account" asp-action="Logout" method="post">
+        <button type="submit">Logout</button>
+    </form>
+</div>

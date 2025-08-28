@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mvccore-ajax-demo", "mvccore-ajax-demo.csproj", "{BAE8C669-93D7-9F7D-0EC6-4AFCEB93702C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BAE8C669-93D7-9F7D-0EC6-4AFCEB93702C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAE8C669-93D7-9F7D-0EC6-4AFCEB93702C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAE8C669-93D7-9F7D-0EC6-4AFCEB93702C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAE8C669-93D7-9F7D-0EC6-4AFCEB93702C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4B2E2ED-3794-45E8-9763-2575E6CEC762}
+	EndGlobalSection
+EndGlobal

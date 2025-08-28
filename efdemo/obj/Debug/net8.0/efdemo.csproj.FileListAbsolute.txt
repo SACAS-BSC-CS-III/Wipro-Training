@@ -1,0 +1,9 @@
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.csproj.AssemblyReference.cache
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.AssemblyInfoInputs.cache
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.AssemblyInfo.cs
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.csproj.CoreCompileInputs.cache
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.MvcApplicationPartsAssemblyInfo.cache
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.RazorAssemblyInfo.cache
+D:\Angular_Prgs\efdemo\obj\Debug\net8.0\efdemo.RazorAssemblyInfo.cs
