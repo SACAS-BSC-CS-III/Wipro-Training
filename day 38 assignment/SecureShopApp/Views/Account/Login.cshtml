@@ -1,0 +1,7 @@
+@model SecureShopApp.Models.LoginViewModel
+<form asp-action="Login" method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+    <input asp-for="Username" placeholder="Username" />
+    <input asp-for="Password" type="password" placeholder="Password" />
+    <button type="submit">Login</button>
+</form>

@@ -1,0 +1,29 @@
+@model IEnumerable<SecureTaskApp.Models.TaskModel>
+
+@{
+    ViewData["Title"] = "Your Tasks";
+}
+
+<h2>Your Task List</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Edit</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var task in Model)
+        {
+            <tr>
+                <td>@Html.Encode(task.Title)</td>
+                <td>@Html.Encode(task.Description)</td>
+                <td>
+                    <a href="/Task/Edit/@task.Id" class="btn btn-sm btn-primary">Edit</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

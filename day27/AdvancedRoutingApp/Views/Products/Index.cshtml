@@ -1,0 +1,14 @@
+@model List<AdvancedRoutingApp.Models.Product>
+
+<h2>All Products</h2>
+
+<ul>
+@foreach (var product in Model)
+{
+    <li>
+        <a href="/Products/@product.Category/@product.Id">
+            @product.Name (@product.Category)
+        </a>
+    </li>
+}
+</ul>

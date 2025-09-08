@@ -1,0 +1,16 @@
+@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<h2>Welcome to the Dashboard</h2>
+
+<p>Hello, @User.Identity.Name!</p>
+
+@if (User.IsInRole("Admin"))
+{
+    <a href="/Admin/ManageTasks" class="btn btn-primary">Admin: Manage Tasks</a>
+}
+@if (User.IsInRole("User"))
+{
+    <a href="/User/TaskList" class="btn btn-success">User: View Tasks</a>
+}

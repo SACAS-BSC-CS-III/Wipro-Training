@@ -1,0 +1,43 @@
+﻿@page
+@model FeedbackApp.Pages.FeedbackModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h2>Submit Feedback</h2>
+
+<form method="post">
+    <div>
+        <label asp-for="Feedback.Name"></label>
+        <input asp-for="Feedback.Name" />
+        <span asp-validation-for="Feedback.Name"></span>
+    </div>
+
+    <div>
+        <label asp-for="Feedback.Email"></label>
+        <input asp-for="Feedback.Email" />
+        <span asp-validation-for="Feedback.Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Feedback.Rating"></label>
+        <select asp-for="Feedback.Rating">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+        <span asp-validation-for="Feedback.Rating"></span>
+    </div>
+
+    <div>
+        <label asp-for="Feedback.Comments"></label>
+        <textarea asp-for="Feedback.Comments"></textarea>
+        <span asp-validation-for="Feedback.Comments"></span>
+    </div>
+
+    <button type="submit">Submit</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

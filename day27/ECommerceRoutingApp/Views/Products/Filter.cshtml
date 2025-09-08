@@ -1,0 +1,9 @@
+@model List<ECommerceRoutingApp.Models.Product>
+
+<h2>Filtered Products</h2>
+<ul>
+@foreach (var product in Model)
+{
+    <li>@product.Name - $@product.Price</li>
+}
+</ul>

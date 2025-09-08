@@ -1,0 +1,65 @@
+@model RoleAuthApp.ViewModels.RegisterViewModel
+<h2>Register</h2>
+
+<form asp-action="Register" method="post">
+    @Html.AntiForgeryToken()
+
+    <div>
+        <label asp-for="FullName"></label>
+        <input asp-for="FullName" />
+        <span asp-validation-for="FullName"></span>
+    </div>
+
+    <div>
+        <label asp-for="Username"></label>
+        <input asp-for="Username" />
+        <span asp-validation-for="Username"></span>
+    </div>
+
+    <div>
+        <label asp-for="Email"></label>
+        <input asp-for="Email" />
+        <span asp-validation-for="Email"></span>
+    </div>
+
+    <div>
+        <label asp-for="Password"></label>
+        <input asp-for="Password" type="password" />
+        <span asp-validation-for="Password"></span>
+    </div>
+
+    <div>
+        <label asp-for="ConfirmPassword"></label>
+        <input asp-for="ConfirmPassword" type="password" />
+        <span asp-validation-for="ConfirmPassword"></span>
+    </div>
+
+    <div>
+        <label asp-for="DateOfBirth"></label>
+        <input asp-for="DateOfBirth" type="date" />
+        <span asp-validation-for="DateOfBirth"></span>
+    </div>
+
+    <div>
+        <label asp-for="Gender"></label>
+        <select asp-for="Gender">
+            <option value="">-- Select --</option>
+            <option>Male</option>
+            <option>Female</option>
+            <option>Other</option>
+        </select>
+        <span asp-validation-for="Gender"></span>
+    </div>
+
+    <div>
+        <label asp-for="Address"></label>
+        <textarea asp-for="Address"></textarea>
+        <span asp-validation-for="Address"></span>
+    </div>
+
+    <button type="submit">Register</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

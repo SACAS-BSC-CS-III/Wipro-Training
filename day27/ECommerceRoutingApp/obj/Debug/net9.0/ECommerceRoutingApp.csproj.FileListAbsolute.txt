@@ -1,0 +1,9 @@
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.AssemblyInfoInputs.cache
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.AssemblyInfo.cs
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.csproj.CoreCompileInputs.cache
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.RazorAssemblyInfo.cache
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.RazorAssemblyInfo.cs
+C:\Users\Deepika\Desktop\wipro training\day27\ECommerceRoutingApp\obj\Debug\net9.0\ECommerceRoutingApp.sourcelink.json

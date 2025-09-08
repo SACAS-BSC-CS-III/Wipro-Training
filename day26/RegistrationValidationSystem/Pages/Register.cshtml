@@ -1,0 +1,47 @@
+﻿@page
+@model RegistrationValidationSystem.Pages.RegisterModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h2>User Registration</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="User.Username"></label>
+        <input asp-for="User.Username" class="form-control" />
+        <span asp-validation-for="User.Username" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="User.Email"></label>
+        <input asp-for="User.Email" class="form-control" />
+        <span asp-validation-for="User.Email" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="User.Password"></label>
+        <input asp-for="User.Password" class="form-control" type="password" />
+        <span asp-validation-for="User.Password" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="User.ConfirmPassword"></label>
+        <input asp-for="User.ConfirmPassword" class="form-control" type="password" />
+        <span asp-validation-for="User.ConfirmPassword" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Register</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

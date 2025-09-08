@@ -1,0 +1,6 @@
+<h2>Admin Dashboard</h2>
+<p>Welcome Admin! You have full access.</p>
+<form asp-controller="Account" asp-action="Logout" method="post" style="display:inline;">
+    @Html.AntiForgeryToken()
+    <button type="submit" class="btn btn-danger">Logout</button>
+</form>

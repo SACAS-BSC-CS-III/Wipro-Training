@@ -1,0 +1,16 @@
+@model SecureShopApp.Models.RegisterViewModel
+
+<form asp-action="Register" method="post">
+    <div asp-validation-summary="ModelOnly"></div>
+
+    <label>Username</label>
+    <input asp-for="Username" />
+
+    <label>Email</label>
+    <input asp-for="Email" />
+
+    <label>Password</label>
+    <input asp-for="Password" type="password" />
+
+    <button type="submit">Register</button>
+</form>
